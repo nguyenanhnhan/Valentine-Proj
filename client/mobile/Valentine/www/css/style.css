@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+/* include animate.css */
+.zoom-in.ng-enter, .zoom-in.ng-move{
+	-webkit-animation: zoomIn 0.1s;
+	-moz-animation: zoomIn 0.1s;
+	-o-animation: zoomIn 0.1s;
+	animation: zoomIn 0.1s;
+}
+
+.zoom-in.ng-leave{
+	-webkit-animation: zoomOut 0.8s;
+	-moz-animation: zoomOut 0.8s;
+	-o-animation: zoomOut 0.8s;
+	animation: zoomOut 0.8s;
+}
